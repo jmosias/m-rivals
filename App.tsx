@@ -1,8 +1,11 @@
 import React from 'react';
-import MainContainer from './navigation/MainContainer';
+import 'react-native-gesture-handler';
+
+// Containers
+import MainStackContainer from './navigation/MainStackContainer';
 
 function App(): JSX.Element {
-  return <MainContainer />;
+  return <MainStackContainer />;
 }
 
 export default App;
